@@ -32,7 +32,7 @@
 
 			$.ajax({
 							
-					url:'https://newsapi.org/v2/top-headlines?country='+con+'&apiKey=ff4fdc1a967240ca9d03b810d90e64ff',
+					url:'https://newsapi.org/v2/top-headlines?country='+con+'&apiKey=88851f31a06a49afb82c13487ad2042f',
 					success:function(data){
 						$('#result').empty();
 
@@ -64,7 +64,7 @@
 			var term=$('#search_term').val();
 
 			$.ajax({
-				url:'https://newsapi.org/v2/everything?q=' + term +'&apiKey=ff4fdc1a967240ca9d03b810d90e64ff',
+				url:'https://newsapi.org/v2/everything?q=' + term +'&apiKey=88851f31a06a49afb82c13487ad2042f',
 				success:function(data){
 					$('#result').empty();
 
@@ -87,7 +87,7 @@
 
 
 		$.ajax({
-			url:"https://newsapi.org/v2/top-headlines?country=in&apiKey=ff4fdc1a967240ca9d03b810d90e64ff",
+			url:"https://newsapi.org/v2/top-headlines?country=in&apiKey=88851f31a06a49afb82c13487ad2042f",
 			success:function(data){
 
 				for (var i in data.articles){
